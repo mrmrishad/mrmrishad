@@ -1,0 +1,125 @@
+/* General */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0b0f14;
+    color: #e6eef2;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #4dd0e1;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #08121a;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+.logo {
+    background: linear-gradient(135deg, #4dd0e1, #6be6c9);
+    color: #031217;
+    font-weight: 700;
+    font-size: 24px;
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-info h1 {
+    margin: 0;
+    font-size: 24px;
+}
+.header-info p {
+    margin: 4px 0 0 0;
+    font-size: 14px;
+    color: #98a0aa;
+}
+
+nav a {
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+main {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    font-size: 22px;
+    margin-bottom: 16px;
+    border-bottom: 2px solid #4dd0e1;
+    display: inline-block;
+    padding-bottom: 4px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+ul li {
+    margin-bottom: 8px;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.project-item {
+    background-color: rgba(255,255,255,0.02);
+    border: 1px solid rgba(255,255,255,0.04);
+    padding: 16px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+.project-item img {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.edu-item {
+    background-color: rgba(255,255,255,0.02);
+    border: 1px solid rgba(255,255,255,0.04);
+    padding: 16px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid rgba(255,255,255,0.05);
+    color: #98a0aa;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    nav {
+        margin-top: 10px;
+    }
+}
